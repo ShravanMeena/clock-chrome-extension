@@ -1,0 +1,20 @@
+{
+  "name": "Random user",
+  "description": "This is just for learning purpose.",
+  "version": "0.0.2",
+  "manifest_version": 3,
+  "action": {
+    "default_popup": "popup.html",
+    "default_icon": "joked.jpeg"
+  },
+  "content_security_policy": {
+    "content_security_policy": "script-src 'self' 'unsafe-inline'; object-src 'self'"
+  },
+  "icons": {
+    "16": "joked.jpeg",
+    "48": "joked.jpeg",
+    "64": "joked.jpeg",
+    "128": "joked.jpeg"
+  },
+  "permissions": ["activeTab", "storage"]
+}
